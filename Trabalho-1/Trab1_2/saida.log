@@ -1,0 +1,72 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: Trab1_2
+
+      Arquivo de teste:    ScriptCompleto.script
+
+
+!!!    0  Linha:     1  // Script:    ScriptCompleto.script 
+!!!    0  Linha:     2  // Autor:     Miguel Sanseverino, Jessica Pereira, Daniel Faller 
+!!!    0  Linha:     3  // Data:      29/03/2019 
+!!!    0  Linha:     4  // Propósito: Testa a construção e a costura de uma árvore usando parâmetros literais 
+!!!    0  Linha:     5  //            Não verifica se as operações modificaram corretamente as referências 
+!!!    0  Linha:     6  //            Este e um script completo que testa todas as condicoes de retorno de 
+!!!    0  Linha:     7  //            cada funcao, exceto as de falta de memoria e erro de estrutura. 
+!!!    0  Linha:     8  //	      Esse script gera 1 erro proposital na linha 110 para testar o log de saída. 
+!!!    0  Linha:     9  // 
+   11  == Verificar Costurar para Árvore não existe
+   14  == Verificar Ir Direita para Árvore não existe
+   17  == Verificar Ir Esquerda para Árvore não existe
+   20  == Verificar Ir Pai para Árvore não existe
+   23  == Verificar Exibir Costura para Árvore não existe
+   26  == Verificar comando recuperar
+>>>    1  Linha:    27  Retorno errado ao ir para direita. Deveria ser: 0  É: 4
+<<<    0  Linha:    28  Falha esperada foi recuperada. 
+   30  == Verificar ObterValorCorr Árvore não existe
+   33  == Verificar  Adicionar parametro na lista Árvore não existe
+   37  == Criar árvore
+   40  == Verificar Exibir Costura Árvore para Ávore vazia
+   43  == Verificar  Adicionar parametro na lista para arvore vazia
+   46  == Verificar Costurar Arvore para arvore vazia
+   49  == Verificar Ir No Esquerda para árvore vazia
+   52  == Verificar Ir No Direita para árvore vazia
+   55  == Verificar Ir Pai para árvore vazia
+   58  == Verificar ObterValorCorr para árvore vazia
+   61  == Inserir raiz à direita
+   64  == Verificar Ir Pai para No é Raiz
+   67  == Verificar ObterValorCorr
+   70  == Inserir à esquerda
+   73  == Veriricar Ir para o no pai
+   76  == Verificar Inserir à Esquerda para No não é Folha
+   79  == Inserir à direita
+   82  == Ir para o no pai
+   85  == Verificar Inserir à Direita para No não é Folha
+   88  == Verificar Ir para direita
+   91  == Verificar Ir Direita para Não Possui Filho
+   94  == Ir para o no pai
+   97  == Verificar Ir para esquerda
+  100  == Obter Valor
+  103  == Verificar Ir Esquerda para Não Possui Filho
+  106  == Verificar Costurar Árvore
+  109  == Verificar Costurar Árvore (erro esperado)
+>>>    1  Linha:   110  Retorno errado ao ir para esquerda. Deveria ser: 5  É: 7
+  112  == Verificar  Adicionar parametro na lista
+  115  == Verificar  Adicionar parametro na lista em um no que não é folhas
+  118  == Verificar Exibir Costura
+Valor: a Chave: 97  ->  Valor: u Chave: 117  ->  
+  121  == Destruir a árvore
+!!!    1  Linha:   124  // fim 
+
+!!! Número de linhas lidas:         124
+!!! Número de casos de teste:        37
+!!! Número comandos corretos:        35
+!!! Número de falhas encontradas:     1
+
+!!! Foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0
